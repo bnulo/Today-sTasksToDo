@@ -11,7 +11,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #2937f0;
+  /* --bs-blue: #2937f0; */
+  --bs-blue: #fff;
   --bs-indigo: #6610f2;
   --bs-purple: #9f1ae2;
   --bs-pink: #d63384;
@@ -33,7 +34,8 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #2937f0;
+  /* --bs-primary: #2937f0; */
+  --bs-primary: #fff;
   --bs-secondary: #9f1ae2;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -237,11 +239,11 @@ sup {
 }
 
 a {
-  color: #adb5bd;
+  color: var(--bs-gray-500);
   text-decoration: underline;
 }
 a:hover {
-  color: #495057;
+  color: var(--bs-gray-700);
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
